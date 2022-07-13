@@ -20,10 +20,12 @@ body {margin: 0;}
     padding: 0px 15px;
     overflow: auto; 
 } 
+
 .about {
     float: left;
     padding: 135px 102px 43px 117px;
 }
+
 .about span {
     display: block;
     font-size: 11px;
@@ -34,7 +36,8 @@ body {margin: 0;}
     margin-bottom: 5px;
     max-width: 82px;
 }
-h2 {
+
+.about h2 {
     display: block;
     font-family: 'Teko', sans-serif;
     font-size: 53px;
@@ -49,4 +52,84 @@ h2 {
     line-height: 25.5px;
     max-width: 683px;
     margin-bottom: 16px;
+}
+
+.news {
+    overflow: auto;
+    float: left;
+    padding-top: 173px;
+}
+
+.news span {
+    display: block;
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: 2.76px;
+    color: #99823D;
+    text-transform: uppercase;
+    max-width: 181px;
+    margin-bottom: 11px;
+}
+
+.news h3 {
+    display: block;
+    font-family: 'Teko', sans-serif;
+    font-size: 26px;
+    line-height: 26.5px;
+    
+}
+
+.first-news {
+    max-width: 323px;
+    margin-bottom: 79px;
+}
+
+.second-news {
+    max-width: 339px;
+}
+
+.achievements {
+    
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    overflow: auto; 
+    background: #EBEBEB;
+    padding-left: 61px;
+}
+
+.achievements li {
+    
+    float: left;
+    font-family: 'Teko', sans-serif;
+    font-size: 59px;
+    line-height: 59px;
+    font-weight: 700;
+    padding-right: 71px;
+    padding-left: 71px;
+    
+
+}
+
+.aftul li:not(:last-child):after {
+    display: inline-block;
+    content:"";
+    width: 10px;
+    height: 10px;
+    background: #99823D;
+    position:absolute;
+    margin: 40px 67px 0px 67px;
+}
+
+.text-after li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: 2.76px;
+    color: #99823D;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-right: 100px;
+    padding-left: 95px;
 }
