@@ -16,25 +16,23 @@ header {
     background: #141414;
 }
 
-header div p {
+.position {
+    position: absolute;
+    background:#99823D;
+    font-size: 42.73px;
+    line-height: 49px;
+    padding: 43.5px 68px;
+    margin-left: 53px;
+}
+
+.pos-heart {
+    margin-left: 428px;
+}
+.pos-heart p, span {
     float:left;
     font-size: 9px;
     line-height: 15px;
     margin: 26px 3px 26px 3px;
-}
-
-header div span {
-    float:left;
-    font-size: 10px;
-    line-height: 15.3px;
-    margin: 26px 5.41px 26px 3px;
-}
-
-.vector {
-    float: left;
-    width: 326px;
-    height: 68px;
-    margin: 0px 31px 0px 53px;
 }
 
 .heart {
@@ -136,8 +134,15 @@ padding: 24px 69px 26px 72px;
 }
 
 .social {
-    overflow: auto;
+    background: #141414;
+    position: relative;
+}
+
+.socialmedia {
     background: #EBEBEB;
+    width: 100%;
+    max-width: 978px;
+    margin-left: 68px;
 }
 
 .socialmedia ul {
@@ -149,11 +154,21 @@ padding: 24px 69px 26px 72px;
     margin-right: 20px;
 }
 
-.socialmedia li a{
+.socialmedia li a {
     font-family:'Open Sans', sans-serif; ;
     padding: 10px 10px;
     letter-spacing: 2.975px;
     text-transform: uppercase;
     font-size: 12px;
     line-height: 68px;
+}
+
+.gold-square {
+    overflow: auto;
+    background: #99823D;
+    width: 489px;
+    height: 329px;
+    position: absolute;
+    right: 53px;
+    bottom: 0px;
 }
