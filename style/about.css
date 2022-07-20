@@ -14,6 +14,8 @@ body {margin: 0;}
 .container {
     font-family: 'Open Sans', sans-serif;
     background: #EBEBEB ;
+    position: relative;
+    z-index: 5;
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
@@ -55,7 +57,6 @@ body {margin: 0;}
 }
 
 .news {
-    overflow: auto;
     float: left;
     padding-top: 173px;
 }
@@ -76,7 +77,6 @@ body {margin: 0;}
     font-family: 'Teko', sans-serif;
     font-size: 26px;
     line-height: 26.5px;
-    
 }
 
 .first-news {
@@ -89,7 +89,6 @@ body {margin: 0;}
 }
 
 .achievements {
-    
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
@@ -100,16 +99,13 @@ body {margin: 0;}
 }
 
 .achievements li {
-    
     float: left;
     font-family: 'Teko', sans-serif;
     font-size: 59px;
-    line-height: 59px;
+    position: relative;
     font-weight: 700;
     padding-right: 71px;
     padding-left: 71px;
-    
-
 }
 
 .aftul li:not(:last-child):after {
@@ -119,7 +115,8 @@ body {margin: 0;}
     height: 10px;
     background: #99823D;
     position:absolute;
-    margin: 40px 67px 0px 67px;
+    right: 5px;
+    bottom: 20px;
 }
 
 .text-after li {
@@ -132,4 +129,88 @@ body {margin: 0;}
     font-weight: 400;
     padding-right: 100px;
     padding-left: 95px;
+}
+
+.img {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 150px 0px 68px 68px;
+    background: #EBEBEB;
+    overflow: auto;
+    
+}
+.new-one {
+    float: left;
+    background: #EBEBEB url(../photo/IMAGE1.png) no-repeat;
+    width: 412px;
+    height: 275px;
+    margin-right: 34px;
+    position: relative;
+}
+
+.new-two {
+    float: left;
+    background: #EBEBEB url(../photo/IMAGE2.png) no-repeat;
+    width: 412px;
+    height: 275px;
+    margin-right: 34px;
+    position: relative;
+}
+
+.new-three {
+    float: left;
+    background: #EBEBEB url(../photo/IMAGE3.png) no-repeat;
+    width: 412px;
+    height: 275px;
+    position: relative;
+}
+
+.new {
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 2.72px;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    padding: 9px 33px 8px 36px;
+    background: black;
+    overflow: auto;
+    width: 103px;
+    height: 34px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.gold {
+    background: #99823D;
+    font-size: 11px;
+    line-height: 34px;
+    letter-spacing: 2.76px;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    overflow: auto;
+    width: 206px;
+    height: 102px;
+    position: absolute;
+    right: 0px;
+    bottom: -68px;
+    padding-left: 33px;
+}
+
+.house {
+    background:black;
+    font-size: 26px;
+    line-height: 26px;
+    font-family: 'Teko', sans-serif;
+    color:#FFFFFF;
+    padding: 15px 92px 26px 92px ;
+    overflow: auto;
+    width: 378px;
+    height: 68px;
+    position: absolute;
+    left: 0px;
+    bottom: -68px;
+    text-align: center;
 }

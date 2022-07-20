@@ -15,7 +15,6 @@ header {
     font-family: 'Open Sans', sans-serif;
     background: #141414;
 }
-
 .position {
     position: absolute;
     background:#99823D;
@@ -24,7 +23,6 @@ header {
     padding: 43.5px 68px;
     margin-left: 53px;
 }
-
 .pos-heart {
     margin-left: 428px;
 }
@@ -34,13 +32,11 @@ header {
     line-height: 15px;
     margin: 26px 3px 26px 3px;
 }
-
 .heart {
     width: 14.18px;
     height: 12.76px;
     margin: 28.12px 230.91px 27.13px 2.41px;
 }
-
 .container-main {
     width: 100%;
     max-width: 1440px;
@@ -49,24 +45,22 @@ header {
     overflow: auto; 
     color: #FFFFFF;
 }
-
 h2 {
     font-family: 'Teko', sans-serif;
 }
-
 .container {
+    position: relative;
+    z-index: 5;
     width: 100%;
     max-width: 584px;
     margin: 0 auto;
     overflow: auto; 
     background: #FFFFFF;
 }
-
 .navigation li {
     float:left;
     margin: 17px 10px;
 }
-
 .navigation li a {
     text-transform: uppercase;
     letter-spacing: 2.7625px;
@@ -74,18 +68,15 @@ h2 {
     font-size: 11px;
     line-height: 34px;
 }
-
 div img {
     float:left;
 }
-
 .introduce {
     padding: 68px 121px 68px 705px;
     font-family: 'Open Sans', sans-serif;
     background: #141414 url(../photo/IMAGE.png) no-repeat;
     background-position: center left 68px;
 }
-
 section span {
     display: block;
     font-size: 11px;
@@ -94,14 +85,12 @@ section span {
     color: #99823D;
     margin: 67px 374px 2px 68px ;
 }
-
 .introduce h2 {
     font-size: 67px;
     line-height: 67.5px;
     color: #141414;
     margin: 0px 99px 32px 68px ;
 }
-
 .introduce p {
     font-size: 17px;
     line-height: 25.5px;
@@ -109,12 +98,10 @@ section span {
     max-width: 435px;
     margin: 0px 81px 15px 68px ;
 }
-
 .btn_over {
     overflow: auto;
     margin: 0px 0px 68px 53px;
 }
-
 .btn {
 font-family: 'Open Sans', sans-serif;
 text-transform: uppercase;
@@ -127,33 +114,27 @@ line-height: 18px;
 margin-left: 17px;
 float: left;
 }
-
 .btn-gold {
 background: #99823D;
 padding: 24px 69px 26px 72px;
 }
-
 .social {
     background: #141414;
     position: relative;
 }
-
 .socialmedia {
     background: #EBEBEB;
     width: 100%;
     max-width: 978px;
     margin-left: 68px;
 }
-
 .socialmedia ul {
     margin-left: 56px;
 }
-
 .socialmedia li {
     float: left;
     margin-right: 20px;
 }
-
 .socialmedia li a {
     font-family:'Open Sans', sans-serif; ;
     padding: 10px 10px;
@@ -162,7 +143,6 @@ padding: 24px 69px 26px 72px;
     font-size: 12px;
     line-height: 68px;
 }
-
 .gold-square {
     overflow: auto;
     background: #99823D;
