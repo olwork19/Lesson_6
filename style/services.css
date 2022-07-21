@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after { box-sizing:border-box; }
+a { text-decoration:none; color:inherit; cursor:pointer; }
+button { background-color:transparent; color:inherit; border-width:0; padding:0; cursor:pointer; }
+figure{ margin:0; }
+ul, ol, dd { margin:0; padding:0; list-style:none; overflow: auto;}
+h1, h2, h3, h4, h5, h6 { margin:0; font-size:inherit; font-weight:inherit; }
+p { margin:0; }
+cite { font-style:normal; }
+fieldset { border-width:0; padding:0; margin:0; }
+body {margin: 0;}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    overflow: auto; 
+}
+
+.topic {
+    display: block;
+    font-family: 'Teko', sans-serif;
+    font-size: 53px;
+    line-height: 53px;
+    font-weight: 700;
+    max-width: 801px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 138px ;
+}
+
+.topic::before {
+    content: "services";
+    color:#99823D ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: 2.76px;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px; left: 360px;
+}
+
+.servis {
+    margin: 82px 117px 91px 117px;
+    overflow: auto;
+}
+
+.fl {
+    display: block;
+    float: left;
+    width: 391px;
+    height: 228px;
+    font-family: 'Open Sans', sans-serif;
+}
+.fl img{
+    float: left;
+    padding-top: 34px;
+    padding-left: 34px;
+    margin-right: 17px;
+    display: block;
+}
+
+.fl span {
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: 2.76px;
+    color: #99823D;
+    padding-top: 38px;
+    margin-bottom: 11px;
+    display: inline-block;
+    overflow: auto;
+}
+
+.fl h3 {
+    display:inline-block;
+    font-family: 'Teko', sans-serif;
+    font-size: 26px;
+    line-height: 26.11px;
+    width: 157px;
+    height: 27px; 
+    margin-bottom: 27px;
+    overflow: auto;
+    
+}
+
+.fl p {
+    font-size: 17px;
+    line-height: 25.5px;
+    width: 292px;
+    height: 77px;
+    margin-left: 34px;
+    margin-right: 65px ;
+}
+
+
+.btn_gold {
+    font-family: 'Open Sans', sans-serif;
+    background: #99823D;
+    color: white;
+    width: 392px;
+    height: 68px;
+    margin: 0px 524px 107px 524px;
+    font-size: 12px;
+    line-height: 17.85px;
+    letter-spacing: 2.76px;
+    text-transform: uppercase;
+}
+
+    

@@ -115,8 +115,7 @@ body {margin: 0;}
     height: 10px;
     background: #99823D;
     position:absolute;
-    right: 5px;
-    bottom: 20px;
+    right: 5px; bottom: 20px;
 }
 
 .text-after li {
