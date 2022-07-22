@@ -43,17 +43,23 @@ body {margin: 0;}
 }
 
 .container-two {
+    font-family: 'Open Sans', sans-serif;
     background: #3D3D3D;
     color: white;
     width: 100%;
     max-width: 1304px;
     margin-left: 53px;
+    position: relative;
 }
-
+.navigation {
+    margin-left: 68px;
+    margin-right: 38px;
+}
 .navigation p {
     float:left;
-    margin:68px 451px 34px 68px;
+    margin: 68px 459px 34px 0px;
     font-size: 34px;  
+    font-weight: 700;
 }
 
 .navigation li {
@@ -63,7 +69,48 @@ body {margin: 0;}
 .navigation li a {
     text-transform: uppercase;
     letter-spacing: 2.7625px;
-    padding: 10px 14px;
+    padding: 10px 10px;
     font-size: 11px;
     line-height: 34px;
 }
+
+.inp {
+    text-transform: uppercase;
+    letter-spacing: 2.7625px;
+    font-size: 11px;
+    line-height: 34px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+.em {
+    
+    max-width: 860px;
+    padding: 15px;
+    margin-left: 68px;
+    margin-right: 17px;
+}
+
+.btn {
+    max-width: 155px;
+    background: black;
+    color: white;
+    border-color: black;
+}
+
+.btn:hover {
+    background:white;
+    color: black;
+    border-color: black;
+    border-style:double;
+}
+
+.form {
+    background: #99823D;
+    width: 1168px;
+    height: 204px;
+    position:absolute;
+    left: 135px; bottom: 5px;
+}
+
