@@ -49,11 +49,13 @@ body {margin: 0;}
     width: 100%;
     max-width: 1304px;
     margin-left: 53px;
-    position: relative;
+    overflow: auto;
+    
 }
 .navigation {
     margin-left: 68px;
     margin-right: 38px;
+    
 }
 .navigation p {
     float:left;
@@ -85,7 +87,6 @@ body {margin: 0;}
     margin-bottom: 68px;
 }
 .em {
-    
     max-width: 860px;
     padding: 15px;
     margin-left: 68px;
@@ -110,7 +111,33 @@ body {margin: 0;}
     background: #99823D;
     width: 1168px;
     height: 204px;
-    position:absolute;
-    left: 135px; bottom: 5px;
+    overflow: auto;
+    position: absolute;
+    bottom: 78px; left: 139px;    
+}
+
+.end {
+    background:black;
+    max-width: 100%;
+    width: 1440px;
+    height: 239px;
+    position: relative;
+}
+
+.end ul {
+    padding-top: 189px;
+    padding-left: 139px;
+}
+
+.end li {
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    color: white;
+    margin-right: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2.76px;
+    padding: 10px 10px;
+    font-size: 11px;
+    line-height: 34px;
 }
 
