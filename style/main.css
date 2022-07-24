@@ -11,11 +11,18 @@ cite { font-style:normal; }
 fieldset { border-width:0; padding:0; margin:0; }
 body {margin: 0;}
 
-header {
-    font-family: 'Open Sans', sans-serif;
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    color: #FFFFFF;
     background: #141414;
+    font-family: 'Open Sans', sans-serif;
+    overflow: auto;
 }
-.position {
+
+.header-logo {
     position: absolute;
     background:#99823D;
     font-size: 42.73px;
@@ -23,128 +30,142 @@ header {
     padding: 43.5px 68px;
     margin-left: 53px;
 }
-.pos-heart {
+
+.thumbnail {
     margin-left: 428px;
+    overflow: auto;
+    float: left;
 }
-.pos-heart p, span {
+.thumbnail p {
     float:left;
     font-size: 9px;
     line-height: 15px;
     margin: 26px 3px 26px 3px;
 }
-.heart {
+.thumbnail__txt{
+    float:left;
+    font-size: 9px;
+    line-height: 15px;
+    margin: 26px 3px 26px 3px;
+}
+.icon {
     width: 14.18px;
     height: 12.76px;
     margin: 28.12px 230.91px 27.13px 2.41px;
 }
-.container-main {
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0px 15px;
+
+.pagination {
     overflow: auto; 
-    color: #FFFFFF;
 }
-h2 {
-    font-family: 'Teko', sans-serif;
-}
-.container {
-    position: relative;
-    z-index: 5;
-    width: 100%;
-    max-width: 584px;
-    margin: 0 auto;
-    overflow: auto; 
-    background: #FFFFFF;
-}
-.navigation li {
+.pagination li {
     float:left;
     margin: 17px 10px;
 }
-.navigation li a {
+.pagination li a {
     text-transform: uppercase;
     letter-spacing: 2.7625px;
     padding: 10px 10px;
     font-size: 11px;
     line-height: 34px;
 }
-div img {
-    float:left;
-}
-.introduce {
-    padding: 68px 121px 68px 705px;
-    font-family: 'Open Sans', sans-serif;
+
+.content {
     background: #141414 url(../photo/IMAGE.png) no-repeat;
     background-position: center left 68px;
+    overflow: auto;
+    width: 100%;
+    max-width: 1440px;
 }
-section span {
+
+.box {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    z-index: 5;
+    left: 290px;
+    bottom: 0px;
+    width: 100%;
+    max-width: 584px;
+    margin: 0 auto;
+    overflow: auto; 
+    background: #FFFFFF;
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+.box__top {
     display: block;
+    width: 142px;
     font-size: 11px;
     line-height: 17px;
     letter-spacing: 2.76px;
     color: #99823D;
-    margin: 67px 374px 2px 68px ;
+    margin-top: 67px;
+    margin-left: 68px;
 }
-.introduce h2 {
+.box__title {
+    font-family: 'Teko', sans-serif;
     font-size: 67px;
     line-height: 67.5px;
     color: #141414;
-    margin: 0px 99px 32px 68px ;
+    margin: 2px 99px 32px 68px ;
 }
-.introduce p {
+.box__txt {
     font-size: 17px;
     line-height: 25.5px;
     color: #141414;
-    max-width: 435px;
     margin: 0px 81px 15px 68px ;
 }
-.btn_over {
-    overflow: auto;
-    margin: 0px 0px 68px 53px;
-}
+
 .btn {
-font-family: 'Open Sans', sans-serif;
-text-transform: uppercase;
-letter-spacing: 2.975px;
-background: #141414;
-padding: 24px 58px 26px 60px;
-color: #FFFFFF;
-font-size: 12px;
-line-height: 18px;
-margin-left: 17px;
-float: left;
+    overflow: auto;
+    margin: 0px 0px 68px 51px;
 }
-.btn-gold {
-background: #99823D;
-padding: 24px 69px 26px 72px;
+.one {
+    text-transform: uppercase;
+    letter-spacing: 2.975px;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 17px;
+}
+.btn__gold {
+    background: #99823D;
+    padding: 25px 69.5px;
+    float: left;
+}
+.btn__gold:hover {
+    color: #141414;
+}
+.btn__black {
+    background: #141414;
+    padding: 25px 59.5px;
+}
+.btn__black:hover {
+    color: #99823D;
 }
 .social {
     background: #141414;
     position: relative;
 }
-.socialmedia {
+.social__nav {
     background: #EBEBEB;
     width: 100%;
     max-width: 978px;
     margin-left: 68px;
 }
-.socialmedia ul {
-    margin-left: 56px;
-}
-.socialmedia li {
+.social__nav li {
     float: left;
-    margin-right: 20px;
+    margin-right: 36px;
 }
-.socialmedia li a {
+.social__nav li a {
     font-family:'Open Sans', sans-serif; ;
-    padding: 10px 10px;
-    letter-spacing: 2.975px;
+    padding: 10px 5px;
+    letter-spacing: 2.97px;
     text-transform: uppercase;
     font-size: 12px;
     line-height: 68px;
 }
 .gold-square {
-    overflow: auto;
+    content: "";
     background: #99823D;
     width: 489px;
     height: 329px;

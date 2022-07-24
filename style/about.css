@@ -14,8 +14,6 @@ body {margin: 0;}
 .container {
     font-family: 'Open Sans', sans-serif;
     background: #EBEBEB ;
-    position: relative;
-    z-index: 5;
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
@@ -27,7 +25,6 @@ body {margin: 0;}
     float: left;
     padding: 135px 102px 43px 117px;
 }
-
 .about span {
     display: block;
     font-size: 11px;
@@ -38,7 +35,6 @@ body {margin: 0;}
     margin-bottom: 5px;
     max-width: 82px;
 }
-
 .about h2 {
     display: block;
     font-family: 'Teko', sans-serif;
@@ -47,7 +43,6 @@ body {margin: 0;}
     max-width: 655px;
     margin-bottom: 28px;
 }
-
 .about p {
     display: block;
     font-size: 17px;
@@ -60,7 +55,6 @@ body {margin: 0;}
     float: left;
     padding-top: 173px;
 }
-
 .news span {
     display: block;
     font-size: 11px;
@@ -68,27 +62,23 @@ body {margin: 0;}
     letter-spacing: 2.76px;
     color: #99823D;
     text-transform: uppercase;
-    max-width: 181px;
+    width: 181px;
     margin-bottom: 11px;
 }
-
-.news h3 {
-    display: block;
+.title {
     font-family: 'Teko', sans-serif;
     font-size: 26px;
     line-height: 26.5px;
 }
-
-.first-news {
-    max-width: 323px;
+.news-one {
+    width: 323px;
     margin-bottom: 79px;
 }
-
-.second-news {
-    max-width: 339px;
+.news-two {
+    width: 339px;
 }
 
-.achievements {
+.result {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
@@ -97,8 +87,7 @@ body {margin: 0;}
     background: #EBEBEB;
     padding-left: 61px;
 }
-
-.achievements li {
+.result li {
     float: left;
     font-family: 'Teko', sans-serif;
     font-size: 59px;
@@ -107,9 +96,7 @@ body {margin: 0;}
     padding-right: 71px;
     padding-left: 71px;
 }
-
-.aftul li:not(:last-child):after {
-    display: inline-block;
+.result__count li:not(:last-child):after {
     content:"";
     width: 10px;
     height: 10px;
@@ -117,7 +104,6 @@ body {margin: 0;}
     position:absolute;
     right: 5px; bottom: 20px;
 }
-
 .text-after li {
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
@@ -125,7 +111,6 @@ body {margin: 0;}
     letter-spacing: 2.76px;
     color: #99823D;
     text-transform: uppercase;
-    font-weight: 400;
     padding-right: 100px;
     padding-left: 95px;
 }
@@ -140,7 +125,7 @@ body {margin: 0;}
     overflow: auto;
     
 }
-.new-one {
+.img__one {
     float: left;
     background: #EBEBEB url(../photo/IMAGE1.png) no-repeat;
     width: 412px;
@@ -149,7 +134,7 @@ body {margin: 0;}
     position: relative;
 }
 
-.new-two {
+.img__two {
     float: left;
     background: #EBEBEB url(../photo/IMAGE2.png) no-repeat;
     width: 412px;
@@ -158,7 +143,7 @@ body {margin: 0;}
     position: relative;
 }
 
-.new-three {
+.img__three {
     float: left;
     background: #EBEBEB url(../photo/IMAGE3.png) no-repeat;
     width: 412px;
