@@ -104,7 +104,7 @@ body {margin: 0;}
     position:absolute;
     right: 5px; bottom: 20px;
 }
-.text-after li {
+.result__text-after li {
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
     line-height: 17px;
@@ -123,35 +123,25 @@ body {margin: 0;}
     padding: 150px 0px 68px 68px;
     background: #EBEBEB;
     overflow: auto;
-    
+}
+.bg {
+    float: left;
+    width: 412px;
+    height: 275px;
+    margin-right: 34px;
+    position: relative;
 }
 .img__one {
-    float: left;
     background: #EBEBEB url(../photo/IMAGE1.png) no-repeat;
-    width: 412px;
-    height: 275px;
-    margin-right: 34px;
-    position: relative;
 }
-
 .img__two {
-    float: left;
     background: #EBEBEB url(../photo/IMAGE2.png) no-repeat;
-    width: 412px;
-    height: 275px;
-    margin-right: 34px;
-    position: relative;
 }
-
 .img__three {
-    float: left;
     background: #EBEBEB url(../photo/IMAGE3.png) no-repeat;
-    width: 412px;
-    height: 275px;
-    position: relative;
 }
 
-.new {
+.img__new {
     font-size: 11px;
     line-height: 16px;
     letter-spacing: 2.72px;
@@ -159,22 +149,19 @@ body {margin: 0;}
     text-transform: uppercase;
     padding: 9px 33px 8px 36px;
     background: black;
-    overflow: auto;
     width: 103px;
     height: 34px;
     position: absolute;
     left: 0px;
     top: 0px;
 }
-
-.gold {
+.img__gold {
     background: #99823D;
     font-size: 11px;
     line-height: 34px;
     letter-spacing: 2.76px;
     color:#FFFFFF;
     text-transform: uppercase;
-    overflow: auto;
     width: 206px;
     height: 102px;
     position: absolute;
@@ -182,15 +169,13 @@ body {margin: 0;}
     bottom: -68px;
     padding-left: 33px;
 }
-
-.house {
+.img__house {
     background:black;
     font-size: 26px;
     line-height: 26px;
     font-family: 'Teko', sans-serif;
     color:#FFFFFF;
     padding: 15px 92px 26px 92px ;
-    overflow: auto;
     width: 378px;
     height: 68px;
     position: absolute;

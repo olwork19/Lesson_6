@@ -11,7 +11,7 @@ cite { font-style:normal; }
 fieldset { border-width:0; padding:0; margin:0; }
 body {margin: 0;}
 
-.container {
+.wrap {
     background: #E5E5E5 ;
     width: 100%;
     max-width: 1440px;
@@ -20,20 +20,18 @@ body {margin: 0;}
     overflow: auto; 
 }
 
-.partner {
+.wrap__partners {
     margin: 68px 83px 136px 83px;
     
 }
-.sponsor li {
+.partners-logo li {
     float: left;
-    overflow: auto;
     padding-left: 55px;
     padding-right: 55px;
     position: relative;
 }
 
-.sponsor li:not(:last-child):after {
-    display: inline-block;
+.partners-logo li:not(:last-child):after {
     content:"";
     width: 9px;
     height: 9px;
@@ -42,7 +40,7 @@ body {margin: 0;}
     right: 0px; bottom: 20px;
 }
 
-.container-two {
+.block {
     font-family: 'Open Sans', sans-serif;
     background: #3D3D3D;
     color: white;
@@ -52,23 +50,21 @@ body {margin: 0;}
     overflow: auto;
     
 }
-.navigation {
-    margin-left: 68px;
-    margin-right: 38px;
-    
+.block__nav {
+    margin: 68px 68px 34px 68px;
 }
-.navigation p {
+.block__nav p {
     float:left;
     margin: 68px 459px 34px 0px;
-    font-size: 34px;  
+    font-size: 29px;  
     font-weight: 700;
 }
 
-.navigation li {
+.block__nav li {
     float:left;
     margin: 68px 20px 34px 0px;
 }
-.navigation li a {
+.block__nav li a {
     text-transform: uppercase;
     letter-spacing: 2.7625px;
     padding: 10px 10px;
@@ -113,7 +109,7 @@ body {margin: 0;}
     height: 204px;
     overflow: auto;
     position: absolute;
-    bottom: 78px; left: 139px;    
+    bottom: 78px; left: 136px;    
 }
 
 .end {

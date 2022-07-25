@@ -11,7 +11,7 @@ cite { font-style:normal; }
 fieldset { border-width:0; padding:0; margin:0; }
 body {margin: 0;}
 
-.container {
+.main {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
@@ -19,21 +19,29 @@ body {margin: 0;}
     overflow: auto; 
 }
 
-.topic {
+.full-title {
     display: block;
     font-family: 'Teko', sans-serif;
     font-size: 53px;
     line-height: 53px;
     font-weight: 700;
-    max-width: 801px;
+    max-width: 100%;
+    width: 801px;
     text-align: center;
     text-transform: capitalize;
     margin: 0 auto;
     position: relative;
     margin-top: 138px ;
 }
-
-.topic::before {
+.full-title::before {
+    content: "";
+    background:black ;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: -85px; left: 390px;
+}
+.full-title::after {
     content: "services";
     color:#99823D ;
     font-family: 'Open Sans', sans-serif;
@@ -45,70 +53,70 @@ body {margin: 0;}
     top: -20px; left: 360px;
 }
 
-.servis {
+.main__cnt {
     margin: 82px 117px 91px 117px;
     overflow: auto;
 }
-
-.fl {
+.main__info{
+    overflow: auto;
     display: block;
     float: left;
     width: 391px;
     height: 228px;
     font-family: 'Open Sans', sans-serif;
 }
-.fl img{
+.main__info img{
     float: left;
     padding-top: 34px;
     padding-left: 34px;
-    margin-right: 17px;
-    display: block;
 }
-
-.fl span {
+.main__info span {
     font-size: 11px;
     line-height: 17px;
     letter-spacing: 2.76px;
     color: #99823D;
-    padding-top: 38px;
-    margin-bottom: 11px;
-    display: inline-block;
-    overflow: auto;
+    margin-top: 38px;
+    margin-left: 17px;
+    float: left;
 }
-
-.fl h3 {
-    
+.main__info h3 {
     font-family: 'Teko', sans-serif;
     font-size: 26px;
     line-height: 26.11px;
     width: 157px;
     height: 27px; 
-    margin-bottom: 27px;
-    overflow: auto;
-    
+    margin: 11px 115px 27px 17px;
+    float: left;  
 }
-
-.fl p {
+.main__info p {
     font-size: 17px;
     line-height: 25.5px;
     width: 292px;
     height: 77px;
     margin-left: 34px;
-    margin-right: 65px ;
+    overflow: auto;
 }
 
-
+.btn {
+    text-align: center;
+    margin-bottom: 107px;
+}
 .btn_gold {
     font-family: 'Open Sans', sans-serif;
     background: #99823D;
     color: white;
-    width: 392px;
-    height: 68px;
-    margin: 0px 524px 107px 524px;
+    padding: 25px 118px;
     font-size: 12px;
     line-height: 17.85px;
     letter-spacing: 2.76px;
     text-transform: uppercase;
+}
+.btn_gold:hover {
+    color: black;
+    border-width: 2px;
+    border-color: black;
+    border-style: double;
+    
 }
 
     
