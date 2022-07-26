@@ -51,7 +51,7 @@ body {margin: 0;}
 .icon {
     width: 14.18px;
     height: 12.76px;
-    margin: 28.12px 220px 27.13px 2.41px;
+    margin: 25.38px 220px 25.37px 2.41px;
 }
 
 .navigation {
@@ -525,6 +525,10 @@ body {margin: 0;}
     line-height: 34px;
 }
 
+.block__nav li a:hover {
+    background: #FFFFFF;
+    color: #141414;
+}
 .end {
     margin: auto;
     font-family: 'Open Sans', sans-serif;
@@ -550,6 +554,7 @@ body {margin: 0;}
     font-size: 11px;
     line-height: 34px;
 }
+
 
 .tiny-info  {
     float: left;
