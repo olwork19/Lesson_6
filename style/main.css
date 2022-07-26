@@ -54,19 +54,23 @@ body {margin: 0;}
     margin: 28.12px 230.91px 27.13px 2.41px;
 }
 
-.pagination {
+.navigation {
     overflow: auto; 
 }
-.pagination li {
+.navigation li {
     float:left;
     margin: 17px 10px;
 }
-.pagination li a {
+.navigation li a {
     text-transform: uppercase;
     letter-spacing: 2.7625px;
     padding: 10px 10px;
     font-size: 11px;
     line-height: 34px;
+}
+.navigation li a:hover {
+    background: #FFFFFF;
+    color: #141414;
 }
 
 .content {
@@ -75,6 +79,7 @@ body {margin: 0;}
     overflow: auto;
     width: 100%;
     max-width: 1440px;
+    margin: auto;
 }
 
 .box {
@@ -143,8 +148,12 @@ body {margin: 0;}
     color: #99823D;
 }
 .social {
+    max-width: 100%;
+    width: 1440px;
+    margin: auto;
     background: #141414;
     position: relative;
+
 }
 .social__nav {
     background: #EBEBEB;
@@ -164,6 +173,11 @@ body {margin: 0;}
     font-size: 12px;
     line-height: 68px;
 }
+.social__nav li a:hover {
+border-style:double;
+border-color:#99823D;
+}
+
 .gold-square {
     content: "";
     background: #99823D;

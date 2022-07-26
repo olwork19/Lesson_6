@@ -69,6 +69,7 @@ body {margin: 0;}
 }
 
 .end {
+    margin: auto;
     font-family: 'Open Sans', sans-serif;
     background:black;
     max-width: 100%;
@@ -83,6 +84,7 @@ body {margin: 0;}
     margin: auto;
 }
 .end li {
+    
     float: left;
     color: #FFFFFF;
     margin-right: 36px;

@@ -125,6 +125,7 @@ body {margin: 0;}
     overflow: auto;
 }
 .bg {
+    
     float: left;
     width: 412px;
     height: 275px;
@@ -132,7 +133,7 @@ body {margin: 0;}
     position: relative;
 }
 .img__one {
-    background: #EBEBEB url(../photo/IMAGE1.png) no-repeat;
+    background: #EBEBEB url(../photo/IMAGE1.png) no-repeat; 
 }
 .img__two {
     background: #EBEBEB url(../photo/IMAGE2.png) no-repeat;
@@ -166,7 +167,7 @@ body {margin: 0;}
     height: 102px;
     position: absolute;
     right: 0px;
-    bottom: -68px;
+    top: 241px;
     padding-left: 33px;
 }
 .img__house {
@@ -180,6 +181,6 @@ body {margin: 0;}
     height: 68px;
     position: absolute;
     left: 0px;
-    bottom: -68px;
+    top: 275px;
     text-align: center;
 }
